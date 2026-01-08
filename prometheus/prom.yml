@@ -10,7 +10,7 @@ scrape_configs:
     scheme: http
     metrics_path: /metrics
     static_configs:
-      - targets: ['carefree-vitality-production-2444.up.railway.app:8080']
+      - targets: ['carefree-vitality.railway.internal:8080']
 
   # - job_name: 'example_api'
   #   scheme: http

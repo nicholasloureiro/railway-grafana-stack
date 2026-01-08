@@ -7,10 +7,10 @@ scrape_configs:
       - targets: ['localhost:9090']
 
   - job_name: 'text2sql-api'
-    scheme: http
+    scheme: https
     metrics_path: /metrics
     static_configs:
-      - targets: ['carefree-vitality.railway.internal:8000']
+      - targets: ['carefree-vitality-production-2444.up.railway.app']
 
   # - job_name: 'example_api'
   #   scheme: http
